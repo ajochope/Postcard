@@ -61,6 +61,15 @@
                                     <rect key="frame" x="16" y="72" width="348" height="89"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLz-sL-k5e">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="175" width="187" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="DRb-bF-s9E"/>
                                 <exclude reference="w3o-a6-bKB"/>
                                 <exclude reference="Z2J-N4-wGs"/>
+                                <exclude reference="JLz-sL-k5e"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="DRb-bF-s9E"/>
                                 <include reference="w3o-a6-bKB"/>
                                 <include reference="Z2J-N4-wGs"/>
+                                <include reference="JLz-sL-k5e"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="16Q-IX-Alj" id="10y-lB-cEU"/>
                         <outlet property="mailButton" destination="w3o-a6-bKB" id="FHt-vV-cYE"/>
                         <outlet property="messageLabel" destination="Z2J-N4-wGs" id="nsS-97-JiI"/>
+                        <outlet property="nameLabel" destination="JLz-sL-k5e" id="iRU-mm-a8E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -102,6 +114,7 @@
                         <viewControllerLayoutGuide type="bottom" id="RKR-Y0-CsN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zS1-xN-6yb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hero-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="lxZ-T6-WEp">
